@@ -1,0 +1,3 @@
+[submodule "components/tp4056"]
+	path = components/tp4056
+	url = https://github.com/alltheworld/tp4056.git
