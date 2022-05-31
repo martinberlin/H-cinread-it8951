@@ -9,6 +9,12 @@ The aim of this is to provide:
 - 3V to 5V step-up
 - 3.7v LiPo battery charger
 
+## Hardware notices
+
+Cinread early revisions that Goodisplay is selling need a small very tiny bridge in the resistances at the side of SPI. Also the Silkscreen has an error and SI is swapped by CLK.
+Please refer to the following image to the correct SPI labels:
+![Corrected labels](components/assets/cinread-correct-IO.jpg)
+
 ### Connection IOs used for preliminary tests
 
 On my first tests to implement this using an Espressif ESP32-S3-WROOM-1U-N8R2 module with 2MB PSRAM I used the following GPIOs:
