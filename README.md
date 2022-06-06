@@ -15,6 +15,20 @@ Cinread early revisions that Goodisplay is selling need a small very tiny bridge
 Please refer to the following image to the correct SPI labels:
 ![Corrected labels](components/assets/cinread-correct-IO.jpg)
 
+## Ideas that could be added to the schematic
+
+Provided by colleagues [Larry Bank](https://github.com/bitbank2) and [Hideo](https://github.com/lovyan03)
+
+1) Increase the pull-up resistors from 2.2 to 4.7K. Safer if the external I2C device already has its own pullups
+2) Add a voltage divider to measure the battery voltage. Something with one end connected to another GPIO to allow the current to be shut off completely when not needed.
+3) If you're not using GPIO 39-42, you might want to get a connector to connect a JTAG debugger.
+
+![jtag](components/assets/jtag.png)
+
+1 Is a done deal, will just switch the I2C pullups to 4.7K
+2 Is not hard to do I will check how unexpected maker does it and do something similar
+3 Is a nice to have feature, but won't add an extra USB for that, will just expose the pins clearly in case anyone wants to connect a JTAG debugger
+
 ### Connection IOs used for preliminary tests
 
 On my first tests to implement this using an Espressif ESP32-S3-WROOM-1U-N8R2 module with 2MB PSRAM I used the following GPIOs:
