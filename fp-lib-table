@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/components/footprint")(options "")(descr ""))
+  (lib (name "tp4056")(type "KiCad")(uri "${KIPRJMOD}/components/tp4056/tp4056_kicad5_old/lib")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "ESP32-S3-WROOM-1-N8")(type "Legacy")(uri "${KIPRJMOD}/components/symbol/ESP32-S3-WROOM-1-N8.lib")(options "")(descr ""))
+  (lib (name "tp4056")(type "KiCad")(uri "${KIPRJMOD}/components/tp4056/tp4056_kicad6_base/symbol_lib/tp4056.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2113APW")(type "Legacy")(uri "${KIPRJMOD}/components/symbol/TPS2113APW.lib")(options "")(descr ""))
+)
