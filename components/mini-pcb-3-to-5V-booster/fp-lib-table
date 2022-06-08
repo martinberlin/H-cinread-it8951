@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "footprint")(type "KiCad")(uri "/home/martin/Documents/kicad/H-cinread-it8951/components/footprint")(options "")(descr ""))
+)
