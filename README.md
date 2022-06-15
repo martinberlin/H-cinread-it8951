@@ -47,6 +47,9 @@ Important: On the early revisions of the Cinread PCB SPI pins CLK and SI (Slave 
 
 This is using at the testing breadboard Lovyan GFX in their develop branch, since it reads the [mem_address to write the image from SPI](https://github.com/lovyan03/LovyanGFX/issues/242), hence using the master branch of the library it will not work or it will write the image incorrectly on the 9.7" display.
 
+![PCB front](/components/assets/IT8951-HAT-Front.jpg)
+![PCB back](/components/assets/IT8951-HAT-Back.jpg)
+
 ### Hardware requirements
 
 - [DEXA-C097](https://www.good-display.com/product/425.html) PCB sold by Good-Display
