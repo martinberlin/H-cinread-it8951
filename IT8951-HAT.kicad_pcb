@@ -1425,7 +1425,7 @@
       (effects (font (size 1.2 1.2) (thickness 0.15)))
       (tstamp 530d9418-423a-4e31-bea1-00ef0e783323)
     )
-    (fp_text value "ESP32-S3-WROOM-1-N8" (at 10.15 2.55 90) (layer "F.SilkS")
+    (fp_text value "ESP32-S3-WROOM-1-N8" (at 10.15 2.55 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 682d7296-8444-4d78-9647-eccef43256c1)
     )
@@ -3661,7 +3661,7 @@
   (gr_text "SCL→" (at 112.580953 64) (layer "F.SilkS") (tstamp 8688e813-e5a8-45d8-9d09-0daa873d68b0)
     (effects (font (size 0.7 0.7) (thickness 0.12)))
   )
-  (gr_text "←IO0 Boot" (at 141.075 75.55) (layer "F.SilkS") (tstamp 8af4b358-e4f9-4c8a-8692-d22b25513e12)
+  (gr_text "←IO0" (at 139.525 76.05) (layer "F.SilkS") (tstamp 8af4b358-e4f9-4c8a-8692-d22b25513e12)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "3V3" (at 80.75 72.475) (layer "F.SilkS") (tstamp 8b855f0b-13b7-4988-a636-3cb05f311829)
