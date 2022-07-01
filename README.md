@@ -2,10 +2,12 @@
 
 Hardware repository for the Cinread.com HAT for 9.7 inch parallel epaper display sold by Good display. 
 
-The aim of this is to provide:
+The goal of this HAT is to provide:
 
 - WiFi
 - BLE
+- DS3231 real time clock
+- Fast 40Mhz SPI
 - 3V to 5V step-up
 - 3.7v LiPo battery charger
 
@@ -20,9 +22,9 @@ Please refer to the following image to the correct SPI labels:
 
 Provided by colleagues [Larry Bank](https://github.com/bitbank2) and [Lovyan03](https://github.com/lovyan03)
 
-1) Increase the pull-up resistors from 2.2 to 4.7K. Safer if the external I2C device already has its own pullups
-2) Add a voltage divider to measure the battery voltage. Something with one end connected to another GPIO to allow the current to be shut off completely when not needed.
-3) You might want to get a connector to connect a JTAG debugger.
+1) Increase the pull-up resistors from 2.2 to 4.7K. Safer if the external I2C device already has its own pullups. DONE
+2) Add a voltage divider to measure the battery voltage. Something with one end connected to another GPIO to allow the current to be shut off completely when not needed. DONE
+3) You might want to get a connector to connect a JTAG debugger. DONE
 
 ## ESP32-S3 Pin for JTAG
 
@@ -37,9 +39,7 @@ GPIO20 D+
 5V -> V_BUS
 ```
 
-1 Is a done deal, will just switch the I2C pullups to 4.7K
-2 Is not hard to do I will check how unexpected maker does it and do something similar
-3 Is a nice to have feature, but won't add an extra USB for that, will just expose the pins clearly in case anyone wants to connect a JTAG debugger
+This second USB will also enable DFU mode to flash the Microcontroller.
 
 ### Connection IOs used for preliminary tests
 
@@ -69,3 +69,7 @@ This is using at the testing breadboard Lovyan GFX in their develop branch, sinc
 - This board that is still on production.
 
 In case you want to test it earlier, please get a ESP32-S3-WROOM-1U-N8R2 and connect the 4 required SPI cables, plus 5V and GND making your own PCB.
+
+### Firmware examples
+
+Met [epaper weather station](https://github.com/martinberlin/epaper-weather-station) first project featuring this hardware and our test PCB.
