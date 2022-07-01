@@ -72,4 +72,8 @@ In case you want to test it earlier, please get a ESP32-S3-WROOM-1U-N8R2 and con
 
 ### Firmware examples
 
-Met [epaper weather station](https://github.com/martinberlin/epaper-weather-station) first project featuring this hardware and our test PCB.
+Meet [epaper weather station](https://github.com/martinberlin/epaper-weather-station) first project featuring this hardware and our test PCB.
+![epaper-weather-station-blurred](https://user-images.githubusercontent.com/2692928/174765248-a73e6c50-6e04-450f-8496-265ebc25c480.jpg)
+
+[Schematics](/Schematic/IT8951-S3-HAT-Schematic.pdf)
+
