@@ -2802,6 +2802,7 @@
   (no_connect (at 293.37 83.82) (uuid db182223-1878-4658-afd3-e112942bad30))
   (no_connect (at 293.37 81.28) (uuid db182223-1878-4658-afd3-e112942bad31))
   (no_connect (at 351.79 118.11) (uuid dd5cc40c-df7d-46f4-8b85-4f0d66d36b90))
+  (no_connect (at 251.46 100.33) (uuid e302af70-e9cb-48ca-afd7-2704a0edf1b7))
   (no_connect (at 260.35 172.72) (uuid fb73e610-2adb-4ed4-8436-c3a817312721))
 
   (wire (pts (xy 256.54 175.26) (xy 257.81 175.26))
@@ -4082,10 +4083,6 @@
   (label "I2C_SDA" (at 96.52 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3c535e06-26f8-43d5-b8d9-58a941cb47be)
-  )
-  (label "5V_SWITCH_FLAG" (at 251.46 100.33 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3cce5699-3953-45b2-acb0-42cac70696f4)
   )
   (label "RTS" (at 273.05 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
