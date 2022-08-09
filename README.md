@@ -18,6 +18,8 @@ Please refer to the following image to the correct SPI labels:
 
 ![Corrected labels](components/assets/cinread-correct-IO.jpg)
 
+Important: I only tested this with one Cinread PCB but there are now 3 more coming. So it's possible that the SPI initial issue I had was mostly sticking to the wrong labels, sending SPI Clock via MOSI, which will of course never work. On the new ones that are coming I will try to send SPI data without making any hardware modifications and just using the right PINs.
+
 ## Ideas that could be added to the schematic
 
 Provided by colleagues [Larry Bank](https://github.com/bitbank2) and [Lovyan03](https://github.com/lovyan03)
@@ -77,3 +79,6 @@ Meet [epaper weather station](https://github.com/martinberlin/epaper-weather-sta
 
 [Schematics](/Schematic/IT8951-S3-HAT-Schematic.pdf)
 
+### Would you like an S2 budget version
+
+If you are interested on having a more budget version of this controller I have an idea to step down fabrication price. Please check [Issue #1](https://github.com/martinberlin/H-cinread-it8951/issues/1) and use the thumb up or write a message to confirm that you are interested. Also take the time to think if there is any other cool addition that we can make to the S2 version.
