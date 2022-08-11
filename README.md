@@ -18,7 +18,7 @@ Please refer to the following image to the correct SPI labels:
 
 ![Corrected labels](components/assets/cinread-correct-IO.jpg)
 
-Important: I only tested this with one Cinread PCB but there are now 3 more coming. So it's possible that the SPI initial issue I had was mostly sticking to the wrong labels, sending SPI Clock via MOSI, which will of course never work. On the new ones that are coming I will try to send SPI data without making any hardware modifications and just using the right PINs.
+Important: Please mind that the Cinread PCB has the SPI labels wrong. And that it needs a 0 OHM 0402 in the position marked as yellow. 6th counting from below at the SO Slave Output pin is please check the image carefully and place it in the right side. This will enable SPI.
 
 ## Ideas that could be added to the schematic
 
