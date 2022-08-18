@@ -1,8 +1,8 @@
-# Cinread-IT8951 HAT
+# DEXA-C097 ESP32S3 HAT
 
-Hardware repository for the Cinread.com HAT for 9.7 inch parallel epaper display sold by Good display. 
+Hardware repository for Cinwrite PCB, a HAT for 9.7 inch parallel epaper display controller DEXA-C097 sold by Good display which uses IT8951 as MCU. 
 
-The goal of this HAT is to provide:
+**The goal of this HAT is to provide:**
 
 - WiFi
 - BLE
@@ -10,6 +10,8 @@ The goal of this HAT is to provide:
 - Fast 40Mhz SPI
 - 3V to 5V step-up
 - 3.7v LiPo battery charger
+
+You can get the produced and tested [Cinwrite board in Tindie](https://www.tindie.com/products/fasani/cinwrite-dexa-c097-hat-for-parallel-epapers) and at the same time you collaborate with our research.
 
 ## Hardware notices
 
