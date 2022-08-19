@@ -5,11 +5,14 @@
   (paper "A3")
 
   (title_block
-    (title "ESP32S3 Cinread SPI HAT ")
+    (title "ESP32S3 CINWRITE SPI HAT ")
     (date "2022-05-30")
     (rev "v1.1")
     (company "FASANI CORPORATION")
-    (comment 1 "The goal of this HAT is to provide WiFi, BLE and 3v to 5V step-up conversion")
+    (comment 1 "DEXA-C097 or other IT8951 epaper controller boards")
+    (comment 2 "The goal of this HAT is to provide WiFi, BLE and 3v to 5V step-up conversion to ")
+    (comment 3 "OSHWA: ES000029 https://certification.oshwa.org/es000029.html")
+    (comment 4 "LICENSE: CERN Open Hardware Licence Version 2")
   )
 
   (lib_symbols
