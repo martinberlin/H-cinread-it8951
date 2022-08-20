@@ -1,14 +1,20 @@
 # DEXA-C097 ESP32S3 HAT
 
-Hardware repository for Cinwrite PCB, a HAT for 9.7 inch parallel epaper display controller DEXA-C097 sold by Good display which uses IT8951 as MCU. 
+Hardware repository for Cinwrite PCB, a HAT for 9.7 inch parallel epaper display controller **DEXA-C097** sold by Good display which uses IT8951 as epaper timings controller and display engine.
 
 This hardware is open source and you can use it commercially or modify it for your own purpouses according to the terms specified in the [License](https://github.com/martinberlin/H-cinread-it8951/blob/main/LICENSE). The only restriction is that it should be not mass produced and not sold without the permission of the Licensor.
 
 ![License SVG](/Schematic/oshw_license.svg)
 
+Licensed by:
+
+![Fasani Corporation Logo](/Schematic/Fasani_logo.png)
+
 We only ask to be notified if you make a product based on this so we can showcase it as a success story. Collaborations and corrections on any terms including lowering consumption are welcome, please make an Issue, or feel free to contact me to the email in my github profile.
 
 ## OSHWA Certification UID [ES000029](https://certification.oshwa.org/es000029.html)
+
+
 
 **The goal of this HAT is to provide:**
 
