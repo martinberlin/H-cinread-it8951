@@ -1,4 +1,4 @@
-4643245053233390
+4644910286280182
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -19536,6 +19536,13 @@ ESP32-S3-WROOM-1-N8
 0
 41
 41
+footprint
+FH34SRJ-6S-0.5SH50-Hirose
+
+
+0
+8
+8
 footprint
 MOLEX-I2C-532530470
 
