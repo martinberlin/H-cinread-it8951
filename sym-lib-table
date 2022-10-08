@@ -4,4 +4,6 @@
   (lib (name "TPS2113APW")(type "Legacy")(uri "${KIPRJMOD}/components/symbol/TPS2113APW.lib")(options "")(descr ""))
   (lib (name "AP22802")(type "Legacy")(uri "${KIPRJMOD}/components/symbol/AP22802AW5-7.lib")(options "")(descr ""))
   (lib (name "MOLEX-I2C-532530470")(type "Legacy")(uri "${KIPRJMOD}/components/symbol/MOLEX-I2C-532530470.lib")(options "")(descr ""))
+  (lib (name "PCF8563T")(type "Legacy")(uri "${KIPRJMOD}/components/symbol/PCF8563T.lib")(options "")(descr ""))
+  (lib (name "TP4057")(type "Legacy")(uri "${KIPRJMOD}/components/symbol/TP4057ST26P.lib")(options "")(descr ""))
 )
