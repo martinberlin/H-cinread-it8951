@@ -122,6 +122,7 @@
         0.0,
         0.3,
         0.4,
+        0.5,
         0.6
       ],
       "via_dimensions": [
@@ -368,7 +369,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -396,7 +397,7 @@
       "netlist": "Schematic/IT8951-HAT.net",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "../../Design/IT8951-HAT.wrl"
     },
     "page_layout_descr_file": ""
   },

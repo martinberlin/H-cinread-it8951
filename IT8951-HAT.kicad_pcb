@@ -244,16 +244,6 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "CE") (pintype "input") (tstamp b394daf2-25ef-437d-9887-36df15f5cb53))
     (pad "9" smd rect locked (at 0 0 180) (size 2.7 3.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "unconnected-(U3-Pad9)") (pinfunction "PP") (pintype "input+no_connect") (tstamp eb05d798-1263-444c-88f7-c964fcf7cae2))
-    (model "${KISYS3DMOD}/Housings_SOIC.3dshapes/Diodes_PSOP-8.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "Housings_SOIC.3dshapes/SOIC-8_3.9x4.9mm_Pitch1.27mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model "${KIPRJMOD}/components/3d/TP4056.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1032,7 +1022,7 @@
       (net 1 "GND") (pinfunction "Pin_6") (pintype "passive") (tstamp 68946b83-2b88-49c0-933c-0a022703ab6e))
     (pad "7" thru_hole oval (at 0 15.24 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 24 "+3V3") (pinfunction "Pin_7") (pintype "passive") (tstamp f311634a-9a4f-49a8-9e92-fcb9b1ee6336))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x07_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x07_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1307,7 +1297,7 @@
       (net 1 "GND") (pintype "passive") (tstamp b6b93301-2dbb-4910-a61d-beb2fa95bfda))
     (pad "2" thru_hole oval (at 2.5 0 90) (size 1.7 2) (drill 1) (layers *.Cu *.Mask)
       (net 4 "BAT+") (pintype "passive") (tstamp cdf9d4e9-ed38-416f-8b72-f6347adcfd72))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_S2B-EH_1x02_P2.50mm_Horizontal.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_S2B-EH_1x02_P2.50mm_Horizontal.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2124,7 +2114,7 @@
       (net 43 "/S3_IO47") (pinfunction "Pin_4") (pintype "passive") (tstamp 54984982-059a-46c6-92c6-a436ed2b8975))
     (pad "5" thru_hole oval (at 0 5.08 270) (size 1 1) (drill 0.65) (layers *.Cu *.Mask)
       (net 42 "/S3_IO21") (pinfunction "Pin_5") (pintype "passive") (tstamp f5c8e8fd-f017-4d7d-b86f-361c12e05796))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x05_P1.27mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x05_P1.27mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2411,11 +2401,6 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 80f4b9cd-0ec9-4c27-9513-9d06c49b3bbc))
     (pad "S1" thru_hole oval locked (at -4.32 1.05 270) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp eb7a096e-6ff0-41d0-90bc-41c9c98b5598))
-    (model "${KISYS3DMOD}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model "${KIPRJMOD}/components/3d/HRO_TYPE-C-31-M-12.step"
       (offset (xyz -4.5 -3.65 0))
       (scale (xyz 1 1 1))
@@ -2728,11 +2713,6 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 826a9e97-df61-44fe-ac16-93c557a1f252))
     (pad "S1" thru_hole oval locked (at -4.32 1.05 90) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp d80c685c-7374-46a6-b166-0e51ffbfc87f))
-    (model "${KISYS3DMOD}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model "${KIPRJMOD}/components/3d/HRO_TYPE-C-31-M-12.step"
       (offset (xyz -4.5 -3.65 0))
       (scale (xyz 1 1 1))
