@@ -14,8 +14,6 @@ We only ask to be notified if you make a product based on this so we can showcas
 
 ## OSHWA Certification UID [ES000029](https://certification.oshwa.org/es000029.html)
 
-
-
 **The goal of this HAT is to provide:**
 
 - WiFi
@@ -26,6 +24,16 @@ We only ask to be notified if you make a product based on this so we can showcas
 - 3.7v LiPo battery charger
 
 You can get the produced and tested [Cinwrite board in Tindie](https://www.tindie.com/products/fasani/cinwrite-dexa-c097-hat-for-parallel-epapers) and at the same time you collaborate with our research.
+
+## Where to get this
+
+Even if you plan to send a batch for fabrication, we strongly recommend to get one first, so you collaborate with my work. But more importantly you can test the hardware to evaluate if it suits your project.
+I don't have big quantities at the moment but you can get one at:
+
+- [https://lectronz.com/stores/fasani](Lectronz FASANI store)
+- https://www.tindie.com/stores/fasani
+
+Both have similar prices. We can ship to all European countries and also to China mainland. Please check the hardware notices and also the DEXA-CO97 board from GOOD-DISPLAY if you want to drive a 1200x825 9.7" epaper display.
 
 ## Hardware notices
 
