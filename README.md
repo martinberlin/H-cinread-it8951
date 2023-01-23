@@ -42,7 +42,9 @@ Please refer to the following image to the correct SPI labels:
 
 ![Corrected labels](components/assets/cinread-correct-IO.jpg)
 
-Important: Please mind that the Cinread PCB has the SPI labels wrong. And that it needs a 0 OHM 0402 in the position marked as yellow. 6th counting from below at the SO Slave Output pin is please check the image carefully and place it in the right side. This will enable SPI.
+Important: Please mind that the Cinread PCB has the SPI labels wrong. And that it needs a 0 Ω 0402 in the position marked as yellow. 6th counting from below at the SO Slave Output pin is please check the image carefully and place it in the right side. This will enable SPI.
+
+UPDATE: On last point about the 0 Ω resistance just check that is there. But Good-Display is selling this with the hardware modification done so SPI should be running as it should.
 
 ## Ideas that could be added to the schematic
 
