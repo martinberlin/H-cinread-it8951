@@ -105,6 +105,7 @@ Meet [epaper weather station](https://github.com/martinberlin/epaper-weather-sta
 
 [Schematics](/Schematic/IT8951-S3-HAT-Schematic.pdf)
 
-### Would you like an S2 budget version
+### Other hardware projects
 
-If you are interested on having a more budget version of this controller I have an idea to step down fabrication price. Please check [Issue #1](https://github.com/martinberlin/H-cinread-it8951/issues/1) and use the thumb up or write a message to confirm that you are interested. Also take the time to think if there is any other cool addition that we can make to the S2 version.
+- [Bistable-smart-switch](https://github.com/martinberlin/bistable-smart-switch) smart switch built with ESP32C3 and epaper display
+- [SPI Adapters](https://github.com/martinberlin/H-spi-adapters) various SPI adapters and related PCBs
